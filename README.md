@@ -19,17 +19,15 @@ Enter the code for admin.py and models.py
 Execute Django admin and create 10 Football players
 
 ## PROGRAM
+# Admin.py
 ```
-## Admin.py
-
 from django.contrib import admin
 from .models import Player,PlayerAdmin
 admin.site.register(Player,PlayerAdmin)
-```
-```
 
-## Models.py
-
+```
+# Models.py
+```
 from django.db import models
 from django.contrib import admin
 class Player(models.Model):
@@ -48,6 +46,9 @@ class PlayerAdmin(admin.ModelAdmin):
 ## OUTPUT
 
 ![Screenshot (21)](https://github.com/Sahithya373/ORM/assets/147017926/f5ce90ea-018c-4fea-a138-6f6b197305ab)
+
+![Screenshot (22)](https://github.com/Sahithya373/ORM/assets/147017926/c13a2098-5397-430d-bf36-013a14fa6a85)
+
 
 
 
